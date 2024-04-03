@@ -1,0 +1,293 @@
+body {
+    background-color: rgba(255, 255, 255, 0.709);
+}
+
+#logo {
+    margin-left: 3rem;
+}
+
+#frm {
+    display: flex;
+    margin-top: 3rem;
+    border: 0px solid black;
+    width: 62rem;
+    height: 22rem;
+    margin-left: 8rem;
+    border-radius: 6px;
+    background-color: white;
+    box-shadow: 5px 5px 5px lightblue;
+}
+
+#text {
+    margin-left: 3rem;
+    margin-top: 3rem;
+
+}
+
+#showmsg {
+    font-size: large;
+    font-weight: 700;
+
+}
+
+form input {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin-left: 5rem;
+    margin-top: 4rem;
+    width: 13rem;
+    border-bottom: 1px solid gray;
+}
+
+form button {
+    margin-left: 4rem;
+    width: 7rem;
+    height: 2.5rem;
+    background-color: #00adee;
+    border-radius: 1rem;
+    border: 0px solid #00adee;
+    color: white;
+}
+
+#map {
+
+    margin-top: 3rem;
+    width: 78rem;
+    height: 32rem;
+
+    background-image: url(./images/gps.avif);
+
+    /* position: absolute; */
+
+}
+
+#ndt {
+
+    background-color: #082662;
+    width: 27rem;
+    height: 18rem;
+    margin-left: 9rem;
+    margin-top: 7rem;
+    margin-bottom: 4rem;
+    border-radius: 6px;
+    color: #f0f0f0;
+
+}
+
+#ndt h1 {
+    margin-left: 2rem;
+    padding-top: 2rem;
+    font-size: 1.5rem;
+}
+
+#ndt p {
+    font-size: 15px;
+    margin-left: 1rem;
+    padding-top: 1rem;
+}
+
+#map #ndt #landline {
+    display: flex;
+    align-items: center;
+    margin-left: 5rem;
+}
+
+#landline img {
+    width: 2rem;
+}
+
+#ftrimg {
+    display: flex;
+
+
+}
+
+#ftrimg {
+    margin-left: 8.5rem;
+    margin-top: 4rem;
+}
+
+#ftrimg img {
+    width: 8.5rem;
+    height: 8.5rem;
+    margin: 1rem;
+    border-radius: 2px;
+
+
+}
+
+#footer {
+    background-color: #092663;
+    height: 15rem;
+    margin-top: 4rem;
+}
+
+#footer img {
+    margin-left: 80%;
+    margin-top: 4rem;
+}
+
+#footer hr {
+    margin-top: 4rem;
+    color: rgb(247, 243, 243);
+    width: 90%;
+    margin-left: 2rem;
+}
+
+#footer p {
+    color: #ffffffd9;
+    margin-left: 3rem;
+}
+
+
+
+
+@media(max-width:600px) {
+
+    body {
+        background-color: rgba(255, 255, 255, 0.709);
+        width: 600px;
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    #logo {
+        margin-left: 3rem;
+        margin-top: 3rem;
+        width: 1rem;
+    }
+    
+    #frm {
+       
+        margin-top: 3rem;
+        border: 0px solid black;
+        width: 400px;
+        height: 50rem;
+       display: list-item;
+        border-radius: 6px;
+        background-color: white;
+        box-shadow: 5px 5px 5px lightblue;
+    }
+    
+   
+    
+    #showmsg {
+        font-size: small;
+        font-weight: 300;
+        
+        
+    
+    }
+    
+    form input {
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        text-align: center;
+        width: 13rem;
+        border-bottom: 1px solid gray;
+    }
+    
+    form button {
+        margin-top: 4rem;
+        margin-left: 7rem;
+        width: 7rem;
+        height: 2.5rem;
+        background-color: #00adee;
+        border-radius: 1rem;
+        border: 0px solid #00adee;
+        color: white;
+    }
+    
+    #map {
+    
+        margin-top: 3rem;
+        width: 600px;
+        height: 45rem;
+    
+        background-image: url(./images/gps.avif);
+    
+        /* position: absolute; */
+    
+    }
+    
+    #ndt {
+    
+        background-color: #082662;
+        width: 18rem;
+        height: 16rem;
+        margin-left: 9rem;
+        margin-top: 7rem;
+        margin-bottom: 4rem;
+        border-radius: 6px;
+        color: #f0f0f0;
+    
+    }
+    
+    #ndt h1 {
+        margin-left: 1rem;
+        padding-top: 2rem;
+        font-size: 1rem;
+    }
+    
+    #ndt p {
+        font-size: 15px;
+        margin-left: 0.5rem;
+        padding-top: 1rem;
+    }
+    
+    #map #ndt #landline {
+        display: flex;
+        align-items: center;
+        margin-left: 1rem;
+    }
+    
+    #landline img {
+        width: 2rem;
+    }
+    
+    #ftrimg {
+        display:list-item;
+    
+    
+    }
+    
+    #ftrimg {
+        margin-left: 8.5rem;
+        margin-top: 4rem;
+    }
+    
+    #ftrimg img {
+        width: 8.5rem;
+        height: 8.5rem;
+        margin: 1rem;
+        border-radius: 2px;
+    
+    
+    }
+    
+    #footer {
+        background-color: #092663;
+        height: 10rem;
+        margin-top: 4rem;
+        width: 600px;
+    }
+    
+    #footer img {
+        margin-left: 40%;
+        margin-top: 2rem;
+    }
+    
+    #footer hr {
+        display: none;
+    }
+    
+    #footer p {
+       display: none;
+
+    }
+
+
+
+}
